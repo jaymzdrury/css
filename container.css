@@ -1,0 +1,35 @@
+:root {
+  background-color: #101820;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  container-type: size;
+  container-name: card;
+}
+
+section {
+  flex: 1;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  border: 1px solid #fee715;
+  container-type: size;
+  container-name: card;
+}
+
+.card {
+  background-color: #fee715;
+  height: 80px;
+}
+
+@container card (min-width: 0px) {
+  .card {
+    width: 80cqw;
+  }
+}
