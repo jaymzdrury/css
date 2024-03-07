@@ -30,6 +30,8 @@ with tailwind
 
 _@property_
 
+property.css
+
 ```JavaScript
   <button />
 ```
