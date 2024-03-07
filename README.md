@@ -16,3 +16,20 @@ container.css
     <div className="card" />
   </>
 ```
+
+with tailwind
+
+```JavaScript
+  <body className="@container">
+    <section>
+      <div className="@xs:w-4/5" />
+    </section>
+    <div className="@xs:w-4/5" />
+  </body>
+```
+
+_@property_
+
+```JavaScript
+  <button />
+```
