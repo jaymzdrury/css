@@ -1,0 +1,9 @@
+.title {
+  color: green;
+}
+
+@scope (.card) {
+  .title {
+    color: red;
+  }
+}

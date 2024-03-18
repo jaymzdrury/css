@@ -20,12 +20,12 @@ container.css
 with tailwind
 
 ```JavaScript
-  <body className="@container">
-    <section>
-      <div className="@xs:w-4/5" />
-    </section>
+<body className="@container">
+  <section>
     <div className="@xs:w-4/5" />
-  </body>
+  </section>
+  <div className="@xs:w-4/5" />
+</body>
 ```
 
 _@property_
@@ -33,5 +33,39 @@ _@property_
 property.css
 
 ```JavaScript
-  <button />
+<button />
+```
+
+_@scope_
+
+scope.css
+
+```JavaScript
+<>
+  <h1 class="title">Title</h1>
+  <section class="card">
+    <h2 class="title">Title</h2>
+  </section>
+</>
+```
+
+_@starting-style_
+
+starting-style.css
+
+```JavaScript
+<>
+  <button id="toggle">Toggle</button>
+  <div class="card">Card</div>
+</>
+```
+
+_clamp_
+
+clamp.css
+
+```JavaScript
+<body>
+  <div class="card">Card</div>
+</body>
 ```
