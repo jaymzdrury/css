@@ -1,16 +1,10 @@
 @property --angle {
-  syntax: "<angle>";
+  syntax: "<angle>"; /*<color>, <percentage>, <length>, <image>, <number>*/
   inherits: false;
   initial-value: 90deg;
 }
 
 button {
-  margin: 50px;
-  width: 300px;
-  height: 50px;
-  border-radius: 20px;
-  border: none;
-  outline: none;
   background: linear-gradient(
     var(--angle),
     #3e4cea,

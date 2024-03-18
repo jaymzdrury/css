@@ -1,0 +1,17 @@
+:root {
+  background-color: #101820;
+}
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  font-size: clamp(0.5rem, 3.5vw, 10rem);
+  color: #fee715;
+}
+.card {
+  border: 1px solid #fee715;
+  height: 200px;
+  width: clamp(600px, 75%, 800px); /*instead of min-width, max-width*/
+}
